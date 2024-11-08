@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schiene und Maschine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: left;
+            margin: 20px;
+            line-height: 1.5;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        audio {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .instruction {
+            text-align: center;
+            margin-top: 30px;
+            font-weight: bold;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 5px;
+        }
+        .small-button {
+            padding: 8px 16px;
+            font-size: 16px;
+            background-color: #555555;
+        }
+        .logo {
+            display: block;
+            margin: 40px auto 0 auto;
+            width: 200px; /* Задайте нужный размер логотипа */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Wasserwege</h1>
+        
+        <!-- Аудиоплеер для файла Wasserwege -->
+        <audio controls controlslist="nodownload">
+            <source src="Schiene-und-Maschine.mp3" type="audio/mpeg">
+            Ihr Browser unterstützt die Audio-Wiedergabe nicht.
+        </audio>
+        
+        <!-- Основной текст -->
+        <p>»Die Farbe und Gestalt des Lebens änderte sich«, schrieb Heinrich Heine. Die Menschen des 19. Jahrhunderts bezeichneten die tiefgreifenden Veränderungen ihrer Lebensumstände und Arbeitsbedingungen sogar als Revolution – als Industrielle
+Revolution. Dauerhaft wandelten sich die wirtschaftlichen und sozialen Verhältnisse, aus der Agrargesellschaft wurde die Industriegesellschaft. Beschleunigung, Fortschritt,
+Produktivität aber auch Entfremdung wurden lebensbestimmende Faktoren der neuen Zeit.
+Die Industrialisierung war in Wolfenbüttel in erster Linie ein Prozess, der entscheidend von der Landwirtschaft geprägt wurde. Mit dem beginnenden Siegeszug der Zuckerrübe in der Mitte des 19. Jahrhunderts und dem großen Erfolg der Wolfenbütteler Gemüsegärtner als Zulieferer der in Deutschland führenden braunschweigischen Konservenindustrie setzte eine Zeit des wachsenden Wohlstands in Stadt und Land ein.
+Nach fast 100 Jahren bedrückender wirtschaftlicher Situation, bedingt durch die
+Residenzverlegung im 18. Jahrhundert, ging es wieder bergauf. Das wahrnehmbarste Zeichen der neuen Zeit war die Straßenbahnlinie, die Wolfenbüttel von 1897 bis 1954 mit Braunschweig verband.
+</p>
+        
+        <!-- Текст-инструкция -->
+        <p class="instruction">Weiter mit der Taste 7</p>
+        
+        <!-- Контейнер для кнопок -->
+        <div class="button-container">
+            <!-- Кнопка 6, ведущая на предыдущую страницу -->
+            <a href="https://museumwolfenbuettel.github.io/schwimmen/" class="button small-button">6</a>
+            
+            <!-- Кнопка 7, ведущая на следующую страницу -->
+            <a href="https://museumwolfenbuettel.github.io/Buerger-Museum/" class="button">7</a>
+        </div>
+
+        <!-- Логотип под кнопками -->
+        <img src="Museum_Wolfenbuettel.jpg" alt="Museum Logo" class="logo">
+    </div>
+</body>
+</html>
